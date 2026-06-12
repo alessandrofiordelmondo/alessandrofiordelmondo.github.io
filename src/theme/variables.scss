@@ -1,0 +1,45 @@
+:root {
+  --ion-font-family: Arial, sans-serif;
+  /* BACKGROUND */
+  --ion-background-color: #0a0a0a;
+  --ion-text-color: #afafaf;
+  /* PRIMARY */
+  // --ion-color-primary: #2c3e50;
+  // --ion-color-primary-rgb: 44,62,80;
+  // --ion-color-primary-contrast: #ffffff;
+  // --ion-color-primary-shade: #263646;
+  // --ion-color-primary-tint: #415263;
+  /* SECONDARY */
+  // --ion-color-secondary: #8d6e63;
+  // --ion-color-secondary-rgb: 141,110,99;
+  // --ion-color-secondary-contrast: #ffffff;
+  /* BACKGROUND */
+  /* CARDS */
+}
+
+/* view the header */
+app-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+ion-header, ion-toolbar {
+  --background: #0a0a0a;
+  --color:  #afafaf;
+  --border-width: 0;
+  box-shadow: none;
+}
+
+ion-router-outlet {
+  margin-top: 72px;
+}
+
+ion-menu-button {
+  --color: #afafaf;
+}
+
+ion-label {
+  white-space: pre-line;
+}

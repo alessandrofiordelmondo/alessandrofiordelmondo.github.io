@@ -1,0 +1,20 @@
+ion-menu {
+  --width: 30%;
+}
+
+ion-menu::part(container) {
+  background: rgba(20, 20, 20, 0.1);
+  backdrop-filter: blur(5px);
+}
+
+ion-content {
+  --background: transparent;
+}
+
+ion-list {
+  background: transparent;
+}
+
+ion-item {
+  --background: transparent;
+}

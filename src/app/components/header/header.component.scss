@@ -1,0 +1,47 @@
+ion-button {
+  text-transform: none;
+}
+ion-header {
+  box-shadow: none;
+}
+ion-button {
+  text-transform: none;
+  font-weight: 400;
+}
+
+.active-link {
+  font-weight: 600;
+  opacity: 1;
+}
+
+ion-button:not(.active-link) {
+  opacity: 0.8;
+}
+
+.site-title {
+  cursor: pointer;
+}
+
+ion-button {
+  text-transform: none;
+}
+
+/* DESKTOP */
+.desktop-nav {
+  display: flex;
+}
+
+.mobile-nav {
+  display: none;
+}
+
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .desktop-nav {
+    display: none;
+  }
+  .mobile-nav {
+    display: flex;
+  }
+}

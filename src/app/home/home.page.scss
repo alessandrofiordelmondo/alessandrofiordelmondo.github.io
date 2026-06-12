@@ -1,0 +1,94 @@
+.exhibition-row{
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+
+.title {
+    padding: 0px;
+    margin: 0px;
+}
+.date {
+    font-size: 0.75rem; 
+    font-weight: 50;
+}
+.type {
+    padding: 0px;
+    margin: 0px;
+    font-weight: 50;
+    opacity: 85%;
+}
+
+.event {
+    padding: 0px;
+    margin: 0px;
+    font-size: 10pt;
+    opacity: 70%;
+}
+
+.author {
+    padding: 0px;
+    margin: 0px;
+    font-weight: 500;
+}
+
+.programme  {
+    padding: 0px;
+    margin: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.programma-title  {
+    font-size: 10pt;
+    padding: 0px;
+    margin: 0px;
+}
+.programma-inst  {
+    font-size: 8pt;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 5px;
+}
+
+
+.normal-text {
+    padding: 0px;
+    margin: 0px; 
+    font-size: 10pt;
+    white-space: pre-line;  
+    opacity: 85%;
+}
+
+.credits-title {
+    padding: 0px;
+    margin: 0px; 
+}
+
+.image-column {
+  display: flex;
+  justify-content: center;  /* horizontal centering */
+}
+
+
+
+
+.gallery {
+
+  display: flex;
+
+  overflow-x: auto;
+
+  gap: 10px;
+
+  scroll-snap-type: x mandatory;
+
+}
+
+.gallery ion-img {
+
+  min-width: 100%;
+
+  scroll-snap-align: center;
+
+}
