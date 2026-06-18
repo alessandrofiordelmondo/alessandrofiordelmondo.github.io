@@ -1,0 +1,762 @@
+{
+  "metadata": {
+    "profile_owner": "Alessandro Fiordelmondo",
+    "generated_on": "2026-05-13",
+    "schema_version": "1.0-final",
+    "exhaustive_profile": true,
+    "last_updated": "2026-05-13",
+    "profile_language": "en"
+  },
+  "personal_information": {
+    "full_name": "Alessandro Fiordelmondo",
+    "birth_date": "1992-05-16",
+    "gender": "male",
+    "nationality": "Italy",
+    "emails": [
+      "alessandrofiordelmondo92@gmail.com",
+      "fiordelmondo@dei.unipd.it",
+      "alessandro.fiordelmondo@uniud.it",
+      "a.fiordelmondo@docenti.madernalettimi.it"
+    ],
+    "phone": "+39 3296625590",
+    "github": "https://github.com/alessandrofiordelmondo",
+    "address": {
+      "type": "work",
+      "street": "Via Gradenigo 6/b",
+      "postal_code": "35131",
+      "city": "Padua",
+      "country": "Italy"
+    },
+    "bio": {
+      "en": "Alessandro Fiordelmondo is an electronic music performer and researcher in Time-based Media Art and Computer Music. He studied at the Padua Conservatory of Music, where he received his master's degree with honours in Electronic Music Composition. He studied with Nicola Bernardini, Alberto Novello, and Alvise Vidolin, among others. Between 2022 and 2024, he carried out a PhD in the History of Art, Film, Audiovisual Media and Music course at the Department of Humanities and Cultural Heritage Studies (DIUM), University of Udine. He was supervised by Cosetta Saba and Sergio Canazza, and his main research topic was the reactivation and preservation of new multimedia art forms. Since 2019, he has been a research assistant at the Centro di Sonologia Computazionale (CSC), the computer music laboratory of the University of Padua, and Audio Innova, a spinoff of the same university. He has worked on audio/video performances and production, reactivation of multimedia installations, and multimedia software development. In 2022, he was appointed an expert in Computer Engineering for Music and Multimedia at the Department of Information Engineering (DEI), University of Padua. He has presented his works and performed at various national and international festivals, including MUSLAB in Mexico City, the SMC—Sound and Music Computing Conference in Stockholm, the Musiques Démesurées festival in Clermont-Ferrand, the Greek National Opera's Sacred Music Festival in Athens, the Biennale Architettura in Venice, the CIM—Colloquio di Informatica Musicale in Udine, Sagra Malatestiana in Rimini, and SEAMUS in West Lafayette (Indiana, USA).",
+      "it": "Alessandro Fiordelmondo è un performer di musica elettronica e ricercatore nell’ambito della Time-based Media Art e della Computer Music. Ha studiato presso il Conservatorio di Musica di Padova, dove ha conseguito il diploma accademico di secondo livello in Composizione di Musica Elettronica con il massimo dei voti e la lode. Ha studiato, tra gli altri, con Alvise Vidolin, Nicola Bernardini e Alberto Novello. Tra il 2022 e il 2024 ha svolto un dottorato di ricerca nel corso di “Storia dell’arte, del cinema, dei media audiovisivi e della musica” presso il Dipartimento di Studi Umanistici e del Patrimonio Culturale (DIUM) dell’Università di Udine, sotto la supervisione di Cosetta Saba e Sergio Canazza. Il suo principale ambito di ricerca è stato la riattivazione e la conservazione delle nuove forme d'arte multimediale. Dal 2019 è assistente di ricerca presso il Centro di Sonologia Computazionale (CSC), laboratorio di informatica musicale dell’Università di Padova, e presso Audio Innova, spin-off dell’Università di Padova. Ha lavorato su performance e produzioni audio/video, sulla riattivazione di installazioni multimediali e sullo sviluppo di applicazioni multimediali. Nel 2022 è stato nominato esperto in “Computer Engineering for Music and Multimedia” presso il Dipartimento di Ingegneria dell’Informazione (DEI) dell’Università di Padova. Ha presentato i suoi lavori e si è esibito in numerosi festival nazionali e internazionali, tra cui MUSLAB a Città del Messico, la SMC—Sound and Music Computing Conference a Stoccolma, il festival Musiques Démesurées di Clermont-Ferrand, il Sacred Music Festival dell’Opera Nazionale Greca di Atene, la Biennale Architettura e la Biannale Arte di Venezia, il CIM—Colloquio di Informatica Musicale di Udine, la Sagra Malatestiana di Rimini e SEAMUS a West Lafayette (Indiana, USA)."
+    }
+  },
+  "education": [
+    {
+      "id": "edu_phd_uniud_2022",
+      "qualification": "phd",
+      "institution": "University of Udine",
+      "department": "DIUM",
+      "field_of_study": [
+        "Arts",
+        "Humanities",
+        "Computer Science"
+      ],
+      "start_date": "2022-01-01",
+      "end_date": "2024-12-31",
+      "location": {
+        "city": "Udine",
+        "country": "Italy"
+      }
+    },
+    {
+      "id": "edu_visiting_hkust_2024",
+      "qualification": "visiting_research_program",
+      "institution": "Hong Kong University of Science and Technology (Guangzhou)",
+      "field_of_study": [
+        "Computational Media and Arts"
+      ],
+      "start_date": "2024-02-01",
+      "end_date": "2024-07-31",
+      "location": {
+        "city": "Guangzhou",
+        "country": "China"
+      },
+      "links": {
+        "website": [
+          "https://www.hkust-gz.edu.cn/"
+        ]
+      }
+    },
+    {
+      "id": "edu_master_pollini_2020",
+      "qualification": "masters_degree",
+      "institution": "Conservatory of Music \"C. Pollini\"",
+      "field_of_study": [
+        "Electronic Music"
+      ],
+      "date": "2020-07",
+      "location": {
+        "city": "Padua",
+        "country": "Italy"
+      }
+    },
+    {
+      "id": "edu_chigiana_2018",
+      "qualification": "diploma",
+      "institution": "Chigiana Academy",
+      "field_of_study": [
+        "Sound & Music Computing"
+      ],
+      "start_year": 2018,
+      "end_year": 2021,
+      "location": {
+        "city": "Siena",
+        "country": "Italy"
+      },
+      "links": {
+        "website": [
+          "https://www.chigiana.org/"
+        ]
+      }
+    },
+    {
+      "id": "edu_iem_erasmus_2019",
+      "qualification": "erasmus",
+      "institution": "Institut für Elektronische Musik und Akustik (IEM)",
+      "field_of_study": [
+        "Computer Music"
+      ],
+      "start_date": "2019-09",
+      "end_date": "2020-02",
+      "location": {
+        "city": "Graz",
+        "country": "Austria"
+      },
+      "links": {
+        "website": [
+          "https://iem.kug.ac.at/institut-fuer-elektronische-musik-und-akustik-iem.html"
+        ]
+      }
+    },
+    {
+      "id": "edu_bachelor_perugia_2017",
+      "qualification": "bachelors_degree",
+      "institution": "Conservatory of Music \"F. Morlacchi\"",
+      "field_of_study": [
+        "Electronic Music"
+      ],
+      "date": "2017-10",
+      "location": {
+        "city": "Perugia",
+        "country": "Italy"
+      },
+      "links": {
+        "website": [
+          "https://www.conservatorioperugia.it/"
+        ]
+      }
+    }
+  ],
+  "work_experience": [
+    {
+      "id": "work_audio_innova_2021",
+      "role": "software_developer",
+      "organization": "Audio Innova",
+      "start_date": "2021-04-30",
+      "end_date": null,
+      "ongoing": true,
+      "activities": [
+        "hArt 2.0 - real-time audio-to-painting generation software",
+        "Disallineato HCI software - real-time body-actor interaction system for music processing"
+      ]
+    },
+    {
+      "id": "work_csc_2020",
+      "role": "research_assistant",
+      "organization": "CSC - Sound and Music Computing Group - University of Padua",
+      "start_date": "2020-09-29",
+      "end_date": null,
+      "ongoing": true
+    },
+    {
+      "id": "work_umus_2019",
+      "role": "technical_coordinator",
+      "organization": "U-Mus",
+      "start_date": "2019-04-10",
+      "end_date": "2019-04-12",
+      "location": {
+        "city": "Padua",
+        "country": "Italy"
+      },
+      "activities": [
+        "VOCI E SUONI di dentro e di fuori"
+      ]
+    },
+    {
+      "id": "work_morlacchi_2017",
+      "role": "technical_coordinator",
+      "organization": "Conservatory of Music \"F. Morlacchi\"",
+      "start_date": "2017-05-01",
+      "end_date": "2017-05-05",
+      "location": {
+        "city": "Perugia",
+        "country": "Italy"
+      },
+      "activities": [
+        "SEGNALI 2017 audiovisual and performance arts international festival"
+      ]
+    }
+  ],
+  "performances": [
+    {
+      "id": "perf_seamus_telematic_2025",
+      "title": "Telematic Concert",
+      "role": [
+        "live_electronics"
+      ],
+      "date": "2025-03-24",
+      "event": "SEAMUS 2025",
+      "venue": "Elliot Hall of Music, Purdue University",
+      "location": {
+        "city": "West Lafayette",
+        "country": "USA"
+      }
+    },
+    {
+      "id": "perf_disallineato_2023",
+      "title": "DISALLINEATO",
+      "role": [
+        "live_electronics",
+        "sound_interaction_design"
+      ],
+      "type": "multimedia_theatre",
+      "authors": [
+        "Hakim Djaziri",
+        "Valentina Favella"
+      ],
+      "production": "MAGMA06",
+      "performances": [
+        {
+          "date": "2023-02-24",
+          "venue": "Palladium Theatre",
+          "city": "Rome",
+          "country": "Italy",
+          "label": "premiere"
+        },
+        {
+          "date": "2023-04-06",
+          "venue": "Spazio 89 Theatre",
+          "city": "Milan",
+          "country": "Italy"
+        }
+      ],
+      "links": {
+        "website": [
+          "https://magma06.com/project/disallineato/"
+        ]
+      }
+    },
+    {
+      "id": "perf_lamento_athens_2024",
+      "role": [
+        "live_electronics"
+      ],
+      "date": "2024-04-30",
+      "event": "2nd Sacred Music Festival - Greek National Opera",
+      "title": "LAMENTO / DUE ARIE MARINE",
+      "collaborators": [
+        "Niki Lada"
+      ],
+      "venue": "Old Stock Exchange",
+      "location": {
+        "city": "Athens",
+        "country": "Greece"
+      }
+    },
+    {
+      "id": "perf_perseo_andromeda_2023",
+      "role": [
+        "live_electronics"
+      ],
+      "date": "2023-10-20",
+      "title": "Perseo e Andromeda",
+      "composer": "Salvatore Sciarrino",
+      "event": "Sagra Malatestiana 74th edition",
+      "venue": "Teatro degli Atti",
+      "location": {
+        "city": "Rimini",
+        "country": "Italy"
+      }
+    },
+    {
+      "id": "perf_ai_ludwig_2023",
+      "role": [
+        "live_electronics"
+      ],
+      "date": "2023-10-13",
+      "title": "AI Ludwig van...?",
+      "event": "Futuradio - Rai Radio 3",
+      "collaborators": [
+        "Alvise Vidolin",
+        "Orchestra Haydn",
+        "Ottavio Dantone"
+      ],
+      "location": {
+        "city": "Bolzano",
+        "country": "Italy"
+      }
+    },
+    {
+      "id": "perf_status_i_smc_2023",
+      "role": [
+        "live_electronics"
+      ],
+      "date": "2023-06-17",
+      "title": "STATUS I",
+      "event": "Sound and Music Computing Conference",
+      "venue": "KMH Royal College of Music",
+      "location": {
+        "city": "Stockholm",
+        "country": "Sweden"
+      }
+    },
+    {
+      "id": "perf_baca_2021",
+      "role": [
+        "acousmatic_concert"
+      ],
+      "date": "2021-10-27",
+      "title": "BACA",
+      "event": "Festival Musiques Démesurées",
+      "location": {
+        "city": "Clermont-Ferrand",
+        "country": "France"
+      }
+    },
+    {
+      "id": "perf_il_tempo_consuma_pisa_2024",
+      "role": [
+        "video_director",
+        "sound_director"
+      ],
+      "date": "2024-10-22",
+      "title": "IL TEMPO CONSUMA",
+      "collaborators": [
+        "Michele Sambin"
+      ],
+      "venue": "Cinema Arsenale",
+      "location": {
+        "city": "Pisa",
+        "country": "Italy"
+      }
+    },
+    {
+      "id": "perf_verite_pas_toute_2023",
+      "role": [
+        "live_electronics"
+      ],
+      "date": "2023-07-14",
+      "title": "La vérité, pas toute",
+      "composer": "Andrea Molino",
+      "location": {
+        "city": "Siena",
+        "country": "Italy"
+      }
+    },
+    {
+      "id": "perf_lamento_milano_2022",
+      "role": [
+        "live_electronics"
+      ],
+      "date": "2022-06-14",
+      "title": "LAMENTO / LA FABBRICA ILLUMINATA",
+      "event": "Divertimento Ensemble",
+      "location": {
+        "city": "Milan",
+        "country": "Italy"
+      }
+    },
+    {
+      "id": "perf_touching_mexico_2017",
+      "role": [
+        "audiovisual_projection"
+      ],
+      "date": "2017-11-13",
+      "title": "Touching++",
+      "event": "MUS LAB",
+      "location": {
+        "city": "Mexico City",
+        "country": "Mexico"
+      }
+    },
+    {
+      "id": "perf_handling_cuneo_2016",
+      "role": [
+        "live_electronics"
+      ],
+      "date": "2016-09-22",
+      "title": "Handling",
+      "location": {
+        "city": "Cuneo",
+        "country": "Italy"
+      }
+    }
+  ],
+  "publications": [
+    {
+      "id": "pub_restoration_2025",
+      "title": "Restoration and reactivation approaches in computer music and time-based media art",
+      "authors": [
+        "Alessandro Russo",
+        "Alessandro Fiordelmondo",
+        "Andrea Franceschini",
+        "Sergio Canazza"
+      ],
+      "publication_type": "journal_article",
+      "publisher": "Springer | Multimedia Tools and Applications",
+      "doi": "10.1007/s11042-025-20609-4"
+    },
+    {
+      "id": "pub_nime_2024",
+      "title": "Longevity in NIME research: a case study using time-based media art preservation models",
+      "publication_type": "conference_paper",
+      "venue": "NIME 2024",
+      "doi": "10.5281/zenodo.13904857"
+    },
+    {
+      "id": "pub_multilevel_dynamic_2023",
+      "title": "A multilevel dynamic model for documenting, reactivating and preserving interactive multimedia art",
+      "publication_type": "journal_article",
+      "publisher": "Frontiers | Signal Processing",
+      "doi": "10.3389/frsip.2023.1183294"
+    },
+    {
+      "id": "pub_time_consumes_2023",
+      "title": "Toward the Reactivation of the Time consumes - An Interview with Michele Sambin",
+      "publication_type": "journal_article",
+      "publisher": "Quarterly Review of Film and Video",
+      "doi": "10.1080/10509208.2023.2173935"
+    },
+    {
+      "id": "pub_headset_2024",
+      "title": "A Signal-Processing-Based Simulation System for High-End Stereo Headsets",
+      "publication_type": "journal_article",
+      "publisher": "MDPI Sensors",
+      "doi": "10.3390/s24072190"
+    },
+    {
+      "id": "pub_visual_classification_2023",
+      "title": "Toward a System of Visual Classification, Analysis and Recognition of Performance-Based Moving Images in the Artistic Field",
+      "publication_type": "conference_paper",
+      "publisher": "Springer",
+      "doi": "10.1007/978-3-031-51026-7_29"
+    }
+  ],
+  "language_skills": [
+    {
+      "language": "Italian",
+      "level": "mother_tongue"
+    },
+    {
+      "language": "English",
+      "levels": {
+        "listening": "B2",
+        "reading": "B2",
+        "spoken_interaction": "B2",
+        "spoken_production": "B2",
+        "writing": "B2"
+      }
+    }
+  ],
+  "technical_skills": {
+    "music_computer_technologies": [
+      "Max/MSP",
+      "Pure Data",
+      "Csound",
+      "Reaper",
+      "Ableton Live",
+      "Pro Tools",
+      "SuperCollider"
+    ],
+    "programming": [
+      "Python",
+      "Arduino",
+      "Raspberry Pi",
+      "Octave/MATLAB"
+    ],
+    "web_mobile_development": [
+      "HTML5",
+      "CSS",
+      "JavaScript",
+      "TypeScript",
+      "Angular",
+      "Android Studio",
+      "Firebase",
+      "Ionic",
+      "PHP",
+      "SQL"
+    ],
+    "other": [
+      "Adobe Photoshop",
+      "TouchDesigner",
+      "Adobe Premiere",
+      "LaTeX",
+      "Git/GitHub",
+      "Vim"
+    ],
+    "operating_systems": [
+      "Linux",
+      "Unix",
+      "macOS",
+      "Windows"
+    ]
+  },
+  "creative_works": [
+    {
+      "id": "work_aqsoundscape_2023",
+      "title": "AQSoundscape",
+      "start_year": 2023,
+      "end_year": 2025,
+      "type": "multichannel_ios_installation",
+      "description": "Real-time sonification of air quality data",
+      "links": {
+        "repository": [
+          "https://github.com/alessandrofiordelmondo/AQSoundscape"
+        ]
+      }
+    },
+    {
+      "id": "cw_status_i",
+      "title": "Status I",
+      "type": "fixed_media_live_electronics",
+      "start_year": 2020,
+      "end_year": 2023,
+      "format": "[8:0]"
+    },
+    {
+      "id": "cw_touching_pp",
+      "title": "Touching++",
+      "type": "audiovisual_composition",
+      "start_year": 2015,
+      "end_year": 2017,
+      "format": "[5.1]"
+    },
+    {
+      "id": "cw_baca",
+      "title": "BACA",
+      "type": "acousmatic_composition",
+      "start_year": 2018,
+      "end_year": 2021,
+      "format": "[4.0]"
+    },
+    {
+      "id": "cw_moment_v",
+      "title": "Moment V",
+      "type": "vertical_music_web_installation",
+      "year": 2016,
+      "status": "reactivation_state",
+      "links": {
+        "website": [
+          "http://www.momentv.org"
+        ]
+      }
+    },
+    {
+      "id": "cw_musica_verticale",
+      "title": "Musica Verticale",
+      "type": "album",
+      "year": 2015,
+      "links": {
+        "website": [
+          "https://musicaverticale.bandcamp.com/album/musica-verticale"
+        ]
+      }
+    },
+    {
+      "id": "cw_virtual_sound_sculptures",
+      "title": "Virtual Sound Sculptures",
+      "year": 2019,
+      "type": "interactive_audio_installation",
+      "platform": "Android",
+      "links": {
+        "repository": [
+          "https://github.com/alessandrofiordelmondo/virtual-sound-sculptures"
+        ]
+      }
+    },
+    {
+      "id": "cw_spazi_improvvisati",
+      "title": "Spazi Improvvisati",
+      "year": 2015,
+      "type": "open_composition",
+      "description": "Live electronics and two acoustic instruments",
+      "links": {
+        "video": [
+          "https://www.youtube.com/watch?v=o3LzeKUOao8&t=1537s"
+        ]
+      }
+    },
+    {
+      "id": "cw_anopticonpanopticon",
+      "title": "Anopticonpanopticon",
+      "year": 2015,
+      "type": "installation",
+      "materials": [
+        "steel plate",
+        "sound exciter",
+        "light"
+      ]
+    }
+  ],
+  "teaching": [
+    {
+      "id": "teach_dsmt_dsll_2024",
+      "course": "Sound Design and Music Technology",
+      "institution": "University of Padua - DSLL",
+      "academic_year": "2024/2025",
+      "language": "EN",
+      "hours": 15
+    },
+    {
+      "id": "teach_cemm_dei_2024",
+      "course": "Computer Engineering for Music and Multimedia",
+      "institution": "University of Padua - DEI",
+      "academic_year": "2024/2025",
+      "language": "EN",
+      "hours": 14
+    },
+    {
+      "id": "teach_laba_sound_design_2022",
+      "course": "Sound Design",
+      "institution": "LABA Trentino",
+      "academic_year": "2021/2022",
+      "language": "IT",
+      "hours": 40
+    },
+    {
+      "id": "teach_subject_matter_expert_dei_2023",
+      "course": "Subject Matter Expert: Computer Engineering for Music and Multimedia",
+      "institution": "University of Padua - DEI",
+      "start_year": 2023,
+      "end_year": null,
+      "ongoing": true
+    },
+    {
+      "id": "teach_cemm_dei_2023",
+      "course": "Computer Engineering for Music and Multimedia",
+      "institution": "University of Padua - DEI",
+      "academic_year": "2023",
+      "language": "EN",
+      "hours": 8
+    },
+    {
+      "id": "teach_dsmt_dsll_2021",
+      "course": "Sound Design and Music Technology",
+      "institution": "University of Padua - DSLL",
+      "academic_year": "2021/2022",
+      "language": "EN",
+      "hours": 21
+    },
+    {
+      "id": "teach_dsmt_dsll_2020",
+      "course": "Sound Design and Music Technology",
+      "institution": "University of Padua - DSLL",
+      "academic_year": "2020/2021",
+      "language": "EN",
+      "hours": 21
+    }
+  ],
+  "conferences_and_seminars": [
+    {
+      "id": "conf_sar_2025",
+      "type": "workshop",
+      "title": "Podcast as a tool for advocacy: from theory to practice",
+      "institution": "Scholar at Risk (SAR) network / University of Padua",
+      "start_date": "2025-03-27",
+      "end_date": "2025-04-17",
+      "location": {
+        "city": "Padua",
+        "country": "Italy"
+      }
+    },
+    {
+      "id": "conf_iciap_2023",
+      "type": "workshop",
+      "title": "Toward a system of visual classification, analysis and recognition of performance-based moving images in the artistic field",
+      "collaborators": [
+        "Michele Castronuovo",
+        "Cosetta Saba"
+      ],
+      "date": "2023-09-11",
+      "location": {
+        "city": "Udine",
+        "country": "Italy"
+      }
+    },
+    {
+      "id": "conf_sambin_2022",
+      "type": "conference",
+      "title": "Michele Sambin IL TEMPO CONSUMA (1978/2022) presente passato e futuro in loop",
+      "date": "2022-05-16",
+      "institution": "University of Padua",
+      "location": {
+        "city": "Padua",
+        "country": "Italy"
+      }
+    },
+    {
+      "id": "conf_web_audio_iot_2022",
+      "type": "workshop",
+      "title": "Web Audio e IoT per la musica",
+      "collaborators": [
+        "Nicolò Merendino"
+      ],
+      "start_date": "2022-03-30",
+      "end_date": "2022-04-27",
+      "location": {
+        "city": "Padua",
+        "country": "Italy"
+      }
+    },
+    {
+      "id": "conf_iot_cultural_2021",
+      "type": "webinar",
+      "title": "Monitorare i beni culturali con l'IoT",
+      "date": "2021-09-24",
+      "location": {
+        "city": "Padua",
+        "country": "Italy"
+      }
+    }
+  ],
+  "certificates": [
+    {
+      "id": "cert_ols_english",
+      "title": "OLS Results",
+      "related_language": "English"
+    }
+  ],
+  "status": {
+    "completed": true,
+    "validated": true,
+    "exhaustive": true,
+    "notes": [
+      "Normalized from full Europass profile",
+      "Dates converted to ISO format",
+      "IDs assigned to entries",
+      "URLs categorized",
+      "Reusable schema for websites, APIs and CV generation"
+    ]
+  },
+  "professional_profile": {
+    "short_bio": {
+      "en": "Electronic music performer and researcher in Time-based Media Art and Computer Music. Research assistant at CSC and Audio Innova, specialized in multimedia performance, live electronics, software development, and preservation/reactivation of multimedia artworks."
+    },
+    "research_interests": [
+      "Time-based Media Art",
+      "Computer Music",
+      "Live Electronics",
+      "Digital Preservation",
+      "Multimedia Installations",
+      "Interactive Multimedia Art",
+      "Artificial Intelligence for Music",
+      "Sound and Music Computing",
+      "IoT for Cultural Heritage"
+    ],
+    "academic_supervisors": [
+      "Cosetta Saba",
+      "Sergio Canazza"
+    ],
+    "studied_with": [
+      "Nicola Bernardini",
+      "Alberto Novello",
+      "Alvise Vidolin"
+    ]
+  },
+  "profile_links": {
+    "github": "https://github.com/alessandrofiordelmondo",
+    "email_primary": "alessandrofiordelmondo92@gmail.com"
+  }
+}
