@@ -1,1 +1,0 @@
-import{a as o,b as e,y as s}from"./chunk-VEEM5QF2.js";var p=(()=>{let t=class t{constructor(i){this.http=i,this.profileUrl="assets/data/2026profile.json"}getProfile(){return this.http.get(this.profileUrl)}};t.\u0275fac=function(n){return new(n||t)(e(s))},t.\u0275prov=o({token:t,factory:t.\u0275fac,providedIn:"root"});let r=t;return r})();export{p as a};

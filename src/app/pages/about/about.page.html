@@ -1,0 +1,111 @@
+<ion-content>
+  @if (data; as d) {
+    <ion-grid>
+      <ion-row>
+        
+        <!-- LEFT COLUMN -->
+        <ion-col size="12" sizeMd="8">
+          
+          <!-- BIO -->
+          <ion-item lines="none" class="section-title">
+            <ion-label> <h1> <strong>Biography</strong> </h1> </ion-label>
+          </ion-item>
+          <ion-item lines="none">
+            <ion-label> {{ data.personal.bio.en }} </ion-label>
+          </ion-item>
+          
+          <!-- MOBILE IMAGE -->
+          <div class="mobile-image">
+            <ion-img src="assets/img/alessandrofiordelmondo.jpg" alt="Alessandro Fiordelmondo"> </ion-img>
+          </div>
+          
+          <!-- EDUCATION -->
+          <ion-item lines="none" class="section-title">
+            <ion-label> <h1> <strong>Education and Research experience</strong> </h1> </ion-label>
+          </ion-item>
+          
+          <!-- EDUCATION CONTENT -->
+          @for ( er of data.educationResearch; track $index ) {
+            <ion-item lines="none">
+              <ion-label>
+                <h3 class="qualification"> {{ er.qualification }} </h3>
+                <p class="institution"> {{ er.institution }} </p>
+                <p class="department"> {{ er.department }} </p>
+                <p class="location"> {{ er.location }} </p>
+                <p class="dates"> {{ er.startDate }} - {{ er.endDate }} </p>
+                <p class="field-of-study"> <strong> Field: </strong> {{ er.fielOfStudy }} </p>
+                @if (er.description?.primary){
+                  @for (d of er.description?.primary; track $index ){
+                    <p class="description"> {{ d }} </p>
+                  }
+                }
+                <p class="supervisor"> <span> with: </span> {{ er.suprvisor }} </p>
+                @for ( url of er.url; track $index ) {
+                  <a class="education-link" [href]="url" target="_blank"> {{ url }} </a><br>
+                }
+              </ion-label>
+            </ion-item>
+          }
+          
+          <!-- TEACHING -->
+          <ion-item lines="none" class="section-title">
+            <ion-label> <h1> <strong>Teaching</strong> </h1> </ion-label>
+          </ion-item>
+          
+          <!-- TEACHING CONTENT -->
+          @for ( tech of data.teaching; track $index ) {
+            <ion-item lines="none">
+              <ion-label>
+                <h3 class="qualification"> {{ tech.course }} </h3>
+                <p class="institution"> {{ tech.institution }} </p>
+                <p class="department"> {{ tech.department }} </p>
+                <p class="location"> {{ tech.location }} </p>
+                <p class="dates"> {{ tech.startDate }} - @if (tech.endDate==null) { 
+                  {{ "ongoing" }}   
+                } @else {
+                  {{ tech.endDate }}
+                } </p>
+                <p> @for (aa of tech.aA; track $index ){ {{aa}}; } </p>
+              </ion-label>
+            </ion-item>
+          }
+
+          <!-- WORK EXPERIENCE -->
+           <ion-item lines="none" class="section-title">
+            <ion-label>
+              <h1> <strong>Other Work Experience</strong> </h1>
+            </ion-label>
+          </ion-item>
+          
+          <!-- WORK EXPERIENCE CONTENT -->
+          @for ( work of data.otherWorkExperience; track $index ) {
+            <ion-item lines="none">
+              <ion-label>
+                <h3 class="qualification"> {{ work.role }} </h3>
+                <p class="institution"> {{ work.organization }} </p>
+                <p class="location"> {{ work.location }} </p>
+                <p class="dates"> {{ work.startDate }} - @if (work.ongoing) { 
+                  {{ "ongoing" }}   
+                } @else {
+                  {{ work.endDate }}
+                } </p>
+                @for ( d of work.description; track $index){
+                  <p class="description"> {{ d }} </p>
+                }
+                @for ( url of work.url; track $index ) {
+                  <a class="education-link" [href]="url" target="_blank"> {{ url }} </a><br>
+                }
+              </ion-label>
+            </ion-item>
+          }
+
+        </ion-col>
+        <!-- DESKTOP IMAGE -->
+         <ion-col sizeMd="4" class="desktop-image"> 
+          <ion-img src="assets/img/alessandrofiordelmondo.jpg" alt="Alessandro Fiordelmondo"></ion-img>
+        </ion-col>
+        </ion-row>
+      </ion-grid>
+    }
+
+  </ion-content>

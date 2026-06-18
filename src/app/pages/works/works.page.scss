@@ -1,0 +1,48 @@
+.pubdate {
+    font-size: 10pt;
+    font-weight: 1000; 
+}
+.pubtitle {
+    font-size: 12pt;
+    color:#afafaf;
+    text-decoration: none;
+}
+
+.pubtitle:hover {
+    color:#cfcfcf;
+}
+
+.pubauthor{
+    font-size: 10pt;
+}
+
+.abstract-header {
+    color:#afafaf;
+    opacity: 0.7;
+    font-size: 0.9rem;
+    font-weight: 300;
+    cursor: pointer;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: underline;
+}
+
+.abstract-header:hover {
+    color:#afafaf;
+    opacity: 1;
+}
+
+.abstract-content {
+    font-size: 10pt;
+}
+
+.creaimg{
+    position: relative;
+    width: 100%;
+}
+
+// .repoblock {
+//     border-style: solid;
+//     border-width: 1px;
+//     border-color: #1f1f1f;
+// }
