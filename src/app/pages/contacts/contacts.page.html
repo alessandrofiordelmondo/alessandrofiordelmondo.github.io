@@ -1,2 +1,93 @@
 <ion-content>
+  @if (personal; as p) {
+    <ion-grid>
+        <ion-row>
+            <ion-col>
+                <ion-item lines="none">
+                    <ion-label> <h1 class="title"> <strong> Contact </strong> </h1> </ion-label>
+                </ion-item>
+                <!--Email-->
+                <ion-item lines="none">
+                    <ion-label> 
+                        <h3> Mail</h3>
+                        <p class="mail"> <strong>Personal:</strong> <a [href]="'mailto:' + p.email[0]"> {{ p.email[0] }} </a> </p>
+                        <p> <strong>Institutional</strong> </p>
+                        <p class="mail">Conservatorio:<a [href]="'mailto:' + p.email[1]"> {{ p.email[1] }} </a> </p>
+                        <p class="mail">Padua University (UNIPD):<a [href]="'mailto:' + p.email[2]"> {{ p.email[2] }} </a> </p>
+                        <p class="mail">Udine University (UNIUD):<a [href]="'mailto:' + p.email[3]"> {{ p.email[3] }} </a> </p>
+                    </ion-label>
+                </ion-item>
+                <ion-item lines="none">
+                    <ion-label> 
+                        <h3> Affiliation</h3>
+                        @for (aff of p.affiliation; track $index) {
+                            <p class="mail"> <strong>{{aff.name}}</strong> | <a [href]="aff.url"> {{ aff.url }} </a> </p>
+                        }
+                    </ion-label>
+                </ion-item>
+                <ion-item lines="none">
+                    <ion-label> 
+                        <h3> Links</h3>
+                        @for (l of p.link; track $index) {
+                            <p class="mail"> <a [href]="l.url"> {{ l.name }} </a> </p>
+                        }
+                    </ion-label>
+                </ion-item>
+                <ion-item lines="none">
+                    <ion-label> 
+                        <h3> ORCID </h3>
+                        <p class="mail"> <a [href]="'https://orcid.org/'+p.orcid"> {{ p.orcid }} </a> </p>
+                    </ion-label>
+                </ion-item>
+            </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col sizeXs="12">
+            <ion-img class="logo-img" src="assets/img/csclogo.png" alt="Centro di Sonologia Computazionale"> </ion-img>
+          </ion-col>
+          <ion-col sizeXs="12">
+            <ion-img class="logo-img" src="assets/img/luigifabbrilogo.png" alt="Centro di Sonologia Computazionale"> </ion-img>
+          </ion-col>
+        </ion-row>
+    </ion-grid>
+  }
 </ion-content>
+
+
+
+        
+       
+          <!-- EMAILS -->
+          <!-- <ion-item lines="none">
+            <ion-label>
+              <h3>Email</h3>
+              @for(email of p.email; track $index) {
+                <p> <a [href]="'mailto:' + email"> {{ email }} </a> </p>
+            }
+            </ion-label>
+          </ion-item> -->
+        <!-- RIGHT COLUMN -->
+        <!-- <ion-col size="12" sizeMd="6"> -->
+          <!-- AFFILIATIONS -->
+          <!-- <ion-item lines="none">
+            <ion-label>
+              <h3>Affiliations</h3>
+              @for(aff of p.affiliation; track $index) {
+                <p> {{ aff }} </p>
+            }
+            </ion-label>
+          </ion-item> -->
+          <!-- REPOSITORIES -->
+          <!-- <ion-item lines="none">
+            <ion-label>
+              <h3>Repositories</h3>
+              @for(repo of archive; track $index) {
+                <p><a [href]="repo.url" target="_blank"> {{ repo.title }} </a></p>
+              }
+            </ion-label>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  }
+</ion-content> -->

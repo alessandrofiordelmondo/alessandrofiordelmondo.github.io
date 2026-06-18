@@ -7,6 +7,7 @@ export interface Profile {
   exhibition: Exhibition[];
   publication: Publication[];
   creativeWork: creativeWork[];
+  archive: Archive[];
 }
 
 export interface Metadata {
@@ -26,8 +27,10 @@ export interface Personal {
   address: string;
   email: string[];
   phone: string;
-  affiliation: string[];
+  affiliation: {name: String; url: String;}[];
+  link: {name: String; url: String;}[];
   bio: Biography;
+  orcid: String;
 }
 
 export interface Biography {
@@ -37,6 +40,7 @@ export interface Biography {
 /***********************************************************/
 /* EDUCATION */
 export interface EducationResearch {
+  type: "research" | "education";
   qualification: string;
   institution: string;
   department: string;
@@ -136,4 +140,29 @@ export interface creativeWork {
   year: number;
   url: {name: string; url: string}[]
   image: string;
+}
+
+export interface Archive {
+  type: string;
+  title: string;
+  url: string;
+  description: string;
+  startDate: string;
+  updateDate: string;
+}
+
+// timeline-entry.interface.ts
+
+export interface TimelineEntry {
+  type: 'education' | 'research' | 'teaching' | 'publication' | 'exhibition' | 'creativeWork' | 'repository' | 'work';
+  title: string;
+  subtitle?: string;
+  description?: string;
+  startDate: string;
+  endDate?: string | null;
+  ongoing?: boolean;
+  location?: string;
+  image?: string;
+  url?: string;
+  rawData?: any;   // keep original object if needed
 }

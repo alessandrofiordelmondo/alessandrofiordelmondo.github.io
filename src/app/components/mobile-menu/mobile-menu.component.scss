@@ -1,10 +1,6 @@
 ion-menu {
-  --width: 30%;
-}
-
-ion-menu::part(container) {
-  background: rgba(20, 20, 20, 0.1);
-  backdrop-filter: blur(5px);
+  --width:25%;
+  max-width: 100%;
 }
 
 ion-content {
@@ -15,6 +11,31 @@ ion-list {
   background: transparent;
 }
 
+ion-menu::part(container) {
+  // background: rgba(10,10,10,0.8);
+  // backdrop-filter: blur(20px);
+  // border-left: 1px solid rgba(255,255,255,0.05);
+
+  background: rgba(20, 20, 20, 0.1);
+  backdrop-filter: blur(5px);
+}
+
+.mobile-menu {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 ion-item {
   --background: transparent;
+  --padding-start: 35px;
+  --inner-border-width: 0;
+
+  font-size: 0.8rem;
+  font-weight: 300;
+  margin: 10px 0px;
+
+
+  transition: 0.2s;
 }

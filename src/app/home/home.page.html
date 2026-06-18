@@ -15,7 +15,6 @@
               @if(ex.ongoing){ <span class="date"> - ongoning</span>} 
               @else {<span class="date"> - {{ex.endDate}}</span>}
             }
-
             <br>
             
             <!-- TITLE -->
@@ -84,7 +83,58 @@
       
       </ion-row>
       } 
-      @if(ex.style==1){ }
     }
+
+    <ion-row>
+      <ion-col class="exhibition-row">
+        <h4>... a while ago ...</h4>
+      </ion-col>
+    </ion-row>
+    <ion-row class="exhibition-row">
+    @for ( ex of data.exhibition; track $index ) {
+      @if(ex.style==1){
+        
+          <ion-col sizeXs="12">
+            
+            <span class="date1">{{ex.startDate}}</span>
+            @if (ex.endDate || ex.ongoing){@if(ex.ongoing){ <span class="date1"> - ongoning</span>} @else {<span class="date1"> - {{ex.endDate}}</span>}}            
+            <span class="title1"> - <strong> {{ex.title}}</strong> ({{ex.type}}) </span>
+            <!-- REPLICAS -->
+            @if(ex.replicas.length==1){
+              <span style="font-size: 0.5rem;"> @ </span> @if (ex.replicas[0].event){ <span class="event"> {{ ex.replicas[0].event }} - </span>}
+              <span class="event"> {{ ex.replicas[0].venue }} - {{ ex.replicas[0].location }}</span>
+              
+              <!-- AUTHORS or PIECES -->
+               @if(ex.authors){<p class="author1"> <b>authors</b>: {{ex.authors}} </p>}
+               
+               @if (ex.pieces){
+                <p class="programme1">Programme</p>
+                @for (p of ex.pieces; track $index){
+                  <p class="programma-title1"> <i>{{p.title}}</i> ({{p.year}}) by {{p.authors}}</p>
+                  <p class="programma-inst1">for {{p.instrument}}</p> 
+                }
+              }
+
+            }
+            @else {
+              <br>
+              @for (rep of ex.replicas; track $index) {
+                @if(rep.date.length>1){<span class="event1">{{ rep.date[0] }} - {{rep.date[1]}}</span>}
+                @else {<span class="event1">{{ rep.date[0] }}</span>}
+                @if (rep.event) { <span class="event1"> · {{ rep.event }}</span>}
+                <span class="event1"> · {{ rep.venue }} - {{ rep.location }} </span> 
+                @if (rep.organizedBy){<span class="event1"> | <i>Organized by {{rep.organizedBy}}</i> </span>}   
+                <br>
+              }
+            }
+ 
+            <!-- PROMOTED BY -->
+            @if (ex.promotedBy){
+              <p class="normal-text1"><strong>Promoted by</strong> {{ex.promotedBy}}</p>
+            }
+          </ion-col>
+        }
+      }
+    </ion-row>
   }
 </ion-content>

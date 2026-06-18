@@ -1,7 +1,7 @@
 :root {
   --ion-font-family: Arial, sans-serif;
   /* BACKGROUND */
-  --ion-background-color: #0a0a0a;
+  --ion-background-color: #0f0f0f;
   --ion-text-color: #afafaf;
   /* PRIMARY */
   // --ion-color-primary: #2c3e50;
@@ -26,7 +26,7 @@ app-header {
   z-index: 999;
 }
 ion-header, ion-toolbar {
-  --background: #0a0a0a;
+  --background: #0f0f0f;
   --color:  #afafaf;
   --border-width: 0;
   box-shadow: none;

@@ -22,4 +22,8 @@ export const routes: Routes = [
     path: 'contacts',
     loadComponent: () => import('./pages/contacts/contacts.page').then( m => m.ContactsPage)
   },
+  {
+    path: 'timeline',
+    loadComponent: () => import('./pages/timeline/timeline.page').then( m => m.TimelinePage)
+  },
 ];
