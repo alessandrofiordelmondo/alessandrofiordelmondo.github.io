@@ -16,7 +16,7 @@
     "phone": "+393296625590",
     "affiliation": [
       {
-        "name": "Conservatoio Maderna-Lettimi di Cesena-Rimini",
+        "name": "Conservatorio Maderna-Lettimi di Cesena-Rimini",
         "url": "https://www.madernalettimi.it/"
       },
       {
@@ -342,8 +342,8 @@
       "startDate": "2019-04-10",
       "endDate": "2019-04-12",
       "location": "Padova PD Italy",
-      "activities": [
-        "VOCI E SUONI di dentro e di fuori"
+      "description": [
+        "Technical Coordinator for the conference VOCI E SUONI di dentro e di fuori"
       ]
     },
     {
@@ -352,8 +352,8 @@
       "startDate": "2017-05-01",
       "endDate": "2017-05-05",
       "location": "Perugia PG ITALY",
-      "activities": [
-        "SEGNALI 2017 audiovisual and performance arts international festival"
+      "description": [
+        "Technical coordinator for the festival SEGNALI 2017 audiovisual and performance arts international festival"
       ]
     }
   ],
@@ -379,7 +379,7 @@
       "location": "Trento TN ITALY",
       "startDate": "2025-11-24",
       "endDate": "2026-01-20",
-      "aA": [
+      "academic_year": [
         "2025/2026"
       ],
       "language": "IT",
@@ -397,7 +397,7 @@
         "2024/2025"
       ],
       "language": "IT",
-      "contract": "Contratto di Lavoro autonomo di docenza",
+      "contract": "Contratto di lavoro autonomo di docenza",
       "ore": 220,
       "documentation": []
     },
@@ -494,6 +494,7 @@
       "ongoing": true,
       "description": {
         "primary": "On the occasion of the 61st International Art Exhibition – Venice Biennale, the Argentine Pavilion presents Monitor Yin Yang, a site-specific installation by artist Matías Duville (Buenos Aires, 1974) that transforms the space into a traversable territory built with salt and charcoal. Conceived as an interdisciplinary project, the work expands cdrawing—one of the central languages in Duville’s practice—into a spatial, sonic, and performative experience.\nThe installation incorporates an original sound composition developed by Centolla Society—a project by Matías Duville with his brother Pablo Duville—in collaboration with Alessandro Fiordelmondo and Alvise Vidolin from the Centro di Sonologia Computazionale (CSC) at the University of Padua. Designed specifically for the pavilion, the sound work unfolds through a multichannel system that creates acoustic paths in dialogue with the architecture and the movement of the audience.\nThe system integrates real-time environmental data from the city of Venice—such as variations in air quality, suspended particles, and atmospheric conditions—which are translated into sound transformations: density, intensity, texture, and movement. In this way, the installation adds a third component to the elements already present—water (salt) and earth (charcoal): air, introduced as an invisible yet active dimension that becomes part of the work’s sensitive system.\nThe soundscape does not function as background but as a dynamic layer that modifies the perception of space and constantly evolves. Together with the crunch of footsteps on the salt, it creates a holistic experience where drawing, sound, environmental data, and human presence intertwine in a composition in perpetual transformation.",
+        "secondary": "A multichannel sound installation based on the real-time sonification of environmental data, created as part of Matias Duville’s artwork Monitor Ying Yang, presented at the Argentine Pavilion during the Venice Art Biennale 2026.\n\nArtist: Matías Duville\nCurator: Josefina Barcia\nOriginal Sound: Centolla Society\nSound Installation: Alessandro Fiordelmondo, Alvise Vidolin, Centro di Sonologia Computazionale (CSC-DEI) dell’Università di Padova",
         "credits": "Artist: Matías Duville\nCurator: Josefina Barcia\nArtists Assistance: Enrique Ranzoni\nGeneral Coordination: Bárbara Golubicki\nProduction: Augusto Maurandi\nArchitecture: Lorenzo Pesola Anfibio\nOriginal Sound: Centolla Society (Pablo Duville, Matías Duville)\nSound Installation: Alessandro Fiordelmondo, Alvise Vidolin, Centro di Sonologia Computazionale (CSC-DEI) dell'Università di Padova\n Video: Gustavo Eandi, Lucas Bresler Batto (Carnicería Sintética)\nLight design: Sergio Lacroix"
       },
       "images": [
@@ -551,6 +552,7 @@
       "ongoing": false,
       "description": {
         "primary": "The sound design for the performance Caravanserraglio was developed by the Centro di Sonologia Computazionale (CSC) of the University of Padua, in collaboration with composer Ardavan Vussoughi and the Sound and Music Processing Lab (SaMPL) of the “Pollini” Conservatory of Padua. The project, coordinated by Professor Sergio Canazza, Director of the CSC, involved the creation of soundscapes and musical material, the design of the live electronics system, and the development of an interactive environment for real-time sound processing.\nA central element of the project is the transformation of the astrolabe, an ancient astronomical instrument and a key object in the narrative, into an interactive musical device. The reconstructed astrolabe, designed and developed by Ludovico Di Martino (DEI, University of Padua) and Alessandro Fiordelmondo (CSC), integrates a microcontroller and sensors that track the movements of the object, allowing the actors to generate synthetic sounds and control sound diffusion in real time.\nThe music, composed by Ardavan Vussoughi and Alessandro Fiordelmondo, was created using recordings of Western acoustic instruments—including clarinet, performed by Matteo Spanio, and various percussion instruments played by Alessandro Cozza—as well as instruments from the Middle Eastern tradition, such as the setar and tar, performed by Darioush Madani. These recordings were combined with computer-generated synthetic sounds.\nThe resulting sonic materials do more than accompany the stage action. At times they comment on the narrative, while at others they become an integral part of it, acting as an extension of speech that, through sound, shapes the theatrical reality. In this way, the music creates a sonic mirage around the characters, immersing the audience within it.\nDuring the performance, sounds are processed in real time through a dedicated live electronics environment, operated live by Alessandro Fiordelmondo and Mattia Pizzato (SaMPL). The system also enables audio spatialisation through a four-channel loudspeaker setup surrounding the audience, enhancing the immersive experience. The result is a sound environment that integrates speech, music, and technology into a unified expressive dimension.",
+        "secondary": "Sound design and live electronics for a multimedia theatre production, including the development of an interactive system for real-time sound processing based on transforming an astrolabe into a Digital Musical Instrument (DMI).\nProduced in collaboration with the Centro di Sonologia Computazionale (CSC), TAM Teatromusica, and the Sound and Music Processing Lab (SaMPL).\n\nPlay: Federico Semenzato, Eleonora Vanzan\nActors: Nicola Lotto, Marco Tizianel\nDirector: Flavia Bussolotto\nLight Design: Stefano Razzolini\nMusic: Ardavan Vassoughi, Alessandro Fiordelmondo\nLive Electronics: Alessandro Fiordelmondo, Mattia Pizzato\nDigital Musical Instrument Design: Alessandro Fiordelmondo, Ludovico Di Martino",
         "credits": "Produced in collaboration with the Centro di Sonologia Computazionale (CSC), TAM Teatromusica, and the Sound and Music Processing Lab (SaMPL) of the Cesare Pollini Conservatory of Music in Padua.\n\nPlay: Federico Semenzato, Eleonora Vanzan\nActors: Nicola Lotto, Marco Tizianel\nDirector: Flavia Bussolotto\n Light Designer: Stefano Razzolini\nMusic: Ardavan Vassoughi, Alessandro Fiordelmondo\nLive electronics: Alessandro Fiordelmondo, Mattia Pizzato\nClarinet: Matteo Spanio\nPercussion: Alessandro Cozza\nTar e Setar: Dariush Madani\nDigital Musical Instrument Designer: Alessandro Fiordelmondo, Ludovico Di Martino"
       },
       "promotedBy": "University of Padua (UNIPD), in collaboration with the Department of Physics and Astronomy (DFA), the Department of Information Engineering (DEI), and the Department of Industrial Engineering (DII)",
@@ -600,7 +602,8 @@
       "endDate": "2025-11-16",
       "ongoing": false,
       "description": {
-        "primary": "Sonificazione Lunare (Lunar Sonification) is a sound installation that uses real-time astronomical data related to the Moon. The work is inspired by the series of artworks by Paolo De Poli based on the distinctive color known as lunar blue, creating a connection between the physical variations of the satellite and the generation of sound.\nThe parameters considered—including lunar phase, distance from Earth, illumination level, azimuth, altitude, and others—are acquired in real time and mapped to sound synthesis and processing techniques. The installation is distributed across three audio channels, each positioned at a specific location within the exhibition space. Each channel operates as an autonomous entity, driven by different lunar data and contributing to a dynamic and continuously evolving spatialisation of sound.\nThe aim is to bring the presence of the Moon—the original reference behind lunar blue—into the exhibition space through sound, creating a direct and perceptible connection between astronomical data and the exhibition environment."
+        "primary": "Sonificazione Lunare (Lunar Sonification) is a sound installation that uses real-time astronomical data related to the Moon. The work is inspired by the series of artworks by Paolo De Poli based on the distinctive color known as lunar blue, creating a connection between the physical variations of the satellite and the generation of sound.\nThe parameters considered—including lunar phase, distance from Earth, illumination level, azimuth, altitude, and others—are acquired in real time and mapped to sound synthesis and processing techniques. The installation is distributed across three audio channels, each positioned at a specific location within the exhibition space. Each channel operates as an autonomous entity, driven by different lunar data and contributing to a dynamic and continuously evolving spatialisation of sound.\nThe aim is to bring the presence of the Moon—the original reference behind lunar blue—into the exhibition space through sound, creating a direct and perceptible connection between astronomical data and the exhibition environment.",
+        "secondary": "Sonificazione Lunare (Lunar Sonification) is a sound installation that uses real-time astronomical data from the Moon, mapping it to sound synthesis and audio processing parameters"
       },
       "promotedBy": "Comune di Padova, Università Iuav di Venezia, Centro di Sonologia Computazionale (CSC), Fondazione Cassa di Risparmio di Padova e Rovigo",
       "images": [
@@ -648,7 +651,8 @@
       "endDate": null,
       "ongoing": false,
       "description": {
-        "primary": "The central element of the event is the Disklavier, an acoustic piano equipped with sensors and electronic actuators that allow its keys and pedals to move automatically, enabling the performance of pieces controlled remotely through MIDI files. Supported by Yamaha Corporation, the choice of the Disklavier was made to allow the AI to perform directly on a physical instrument without a human performer acting as an intermediary, effectively giving it a form of \"musical body.\"\nThroughout the event, presentations by Professor Sergio Canazza alternated with listening sessions featuring music generated through artificial intelligence and presented by researcher Alessandro Fiordelmondo, whose work focuses on live electronics and AI-based music systems.\nTo explore the relationship between composer and AI, composer Ardavan Vossoughi was invited to create a set of original pieces that would serve as the training dataset for a neural network. The model was then used to generate a new composition. For this purpose, Vossoughi composed ten original studies for Disklavier, exploring different compositional possibilities offered by the instrument.\nThe AI-generated piece was presented both in its original form, as produced by the neural network, and in a revised version subsequently reworked by Vossoughi."
+        "primary": "The central element of the event is the Disklavier, an acoustic piano equipped with sensors and electronic actuators that allow its keys and pedals to move automatically, enabling the performance of pieces controlled remotely through MIDI files. Supported by Yamaha Corporation, the choice of the Disklavier was made to allow the AI to perform directly on a physical instrument without a human performer acting as an intermediary, effectively giving it a form of \"musical body.\"\nThroughout the event, presentations by Professor Sergio Canazza alternated with listening sessions featuring music generated through artificial intelligence and presented by researcher Alessandro Fiordelmondo, whose work focuses on live electronics and AI-based music systems.\nTo explore the relationship between composer and AI, composer Ardavan Vossoughi was invited to create a set of original pieces that would serve as the training dataset for a neural network. The model was then used to generate a new composition. For this purpose, Vossoughi composed ten original studies for Disklavier, exploring different compositional possibilities offered by the instrument.\nThe AI-generated piece was presented both in its original form, as produced by the neural network, and in a revised version subsequently reworked by Vossoughi.",
+        "secondary": "Concert lecture exploring AI-based music performance through the Yamaha Disklavier, an acoustic piano remotely controlled via MIDI, enabling artificial intelligence to perform directly on a physical instrument."
       },
       "promotedBy": "Scuola Internazionale Superiore di Studi Avanzati (SISSA), Comune di Trieste, Università di Padova (UNIPD) with the collaboration of the Centro di Sonologia Computazionale (CSC) and Yamaha Music.",
       "images": [
@@ -708,7 +712,8 @@
           "location": "Lecce LE ITALY",
           "date": [
             "2022-02-18"
-          ]
+          ],
+          "organizedBy": "Museo Castromediano di Lecce"
         }
       ],
       "role": [
@@ -900,6 +905,7 @@
       "ongoing": false,
       "description": {
         "primary": "Following a classical concert in which the Haydn Orchestra of Bolzano and Trento, conducted by Ottavio Dantone, will perform Franz Joseph Haydn’s Symphony No. 95 in C minor, Hoboken I/95, and Ludwig van Beethoven’s Symphony No. 4 in B-flat major, Op. 60, the evening will continue with AI Ludwig van…?, a composition by Alvise Vidolin in collaboration with Alessandro Fiordelmondo.\nThe work presents a reinterpretation of Beethoven’s music through electronics and artificial intelligence, combined with live interventions by the orchestra. The performance will be given by the Haydn Orchestra of Bolzano and Trento, conducted by Ottavio Dantone.",
+        "secondary": "Live electronics and artificial intelligence processing of Beethoven's 4th Symphony.",
         "credits": "Orchestra Haydn di Bolzano e Trento\nDirector:Ottavio Dantone\nLive Electronics and Sound Director: Alvise Vidolin and Alsessandro Fiordelmondo"
       },
       "promotedBy": "RAI",
@@ -954,7 +960,7 @@
       "ongoing": false,
       "description": {
         "primary": "La vérité, pas toute\nAndrea Molino\nfor choir, percussion, live electronics, acthors and performers with real time audio video recording.\n\nRelated Articol:\nNicola Bernardini, Alvise Vidolin, Alessandro Fiordelmondo, Luca Richelli, Mattia Pizzato. Inside Andrea Molino’s La vérité, pas toute: The Creation of Swarm Sounds. Proceedings of the 19th Linux Audio Conference, Jun 2025, Lyon, France. ffhal-05096042f",
-        "credits": "Coro della Cattedrale di Siena \"Guido Chigi Saracini\"\nChigiana Percussion Ensemble\nFrancesco Conforti, Carol Di Vito, Davide Fabrizio, Domiziana Del Mastro, Antonio Gaggiano, Emanuela Olivelli, Tommaso Sassatelli, Davide Soro\nAlvise Vidolin / Nicola Bernardini, live electronics\nJulian Scordato, coordinatore SaMPL\nLuca Richelli / Mattia Pizzato / Alessandro Fiordelmondo, sound engineers\nLorenzo Donati, direttore"
+        "credits": "'La vérité, pas toute' for choir, percussion, live electronics, acthors and performers with real time audio video recording.\nCoro della Cattedrale di Siena \"Guido Chigi Saracini\"\nChigiana Percussion Ensemble\nFrancesco Conforti, Carol Di Vito, Davide Fabrizio, Domiziana Del Mastro, Antonio Gaggiano, Emanuela Olivelli, Tommaso Sassatelli, Davide Soro\nAlvise Vidolin / Nicola Bernardini, live electronics\nJulian Scordato, coordinatore SaMPL\nLuca Richelli / Mattia Pizzato / Alessandro Fiordelmondo, sound engineers\nLorenzo Donati, direttore"
       },
       "promotedBy": "Chigiana Accademy",
       "images": [
@@ -1000,7 +1006,8 @@
       "endDate": null,
       "ongoing": false,
       "description": {
-        "primary": "The work is a study on spatialisation techniques and consists of nine stereophonic tracks and fifteen statuses. The horizontal structure is given by the succession of statuses representing different perspectives of a sound sculpture (never presented in its entirety). Like a succession of images that, through different perspectives, show a set of details of a marble sculpture. Similarly, the statuses consist of a vertical layering of sound elements (one per track) frozen in time and determining the sound sculpture from certain listening points. The performer’s function is to experience each sound status through diffusion and spatialisation in space (spatialisation as a form of augmented listening). The performer must choose the spatial interpretation of each status, the spatialisation strategy to be applied and the sound system in which to perform the piece."
+        "primary": "The work is a study on spatialisation techniques and consists of nine stereophonic tracks and fifteen statuses. The horizontal structure is given by the succession of statuses representing different perspectives of a sound sculpture (never presented in its entirety). Like a succession of images that, through different perspectives, show a set of details of a marble sculpture. Similarly, the statuses consist of a vertical layering of sound elements (one per track) frozen in time and determining the sound sculpture from certain listening points. The performer’s function is to experience each sound status through diffusion and spatialisation in space (spatialisation as a form of augmented listening). The performer must choose the spatial interpretation of each status, the spatialisation strategy to be applied and the sound system in which to perform the piece.",
+        "secondary": "STATUS I - Six tracks fixed media and Live Electronics"
       },
       "promotedBy": "Sound and Music Computing (SMC) Conference",
       "images": [
@@ -1100,7 +1107,8 @@
       "endDate": null,
       "ongoing": false,
       "description": {
-        "primary": "with Niki Lada (soprano) and Simona Mastropasqua (soprano)."
+        "primary": "with Niki Lada (soprano) and Simona Mastropasqua (soprano).",
+        "secondary": "with Niki Lada (soprano) and Simona Mastropasqua (soprano)."
       },
       "promotedBy": "Divertimento Ensemble",
       "style": 1
@@ -1160,7 +1168,8 @@
       "endDate": null,
       "ongoing": false,
       "description": {
-        "primary": ""
+        "primary": "",
+        "secondary": "Composition: Moment (Status I 1st version)\nSix tracks fixed media and Live Electronics"
       },
       "promotedBy": "Chigiana Accademy",
       "style": 1
@@ -1695,6 +1704,111 @@
       "style": 1
     }
   ],
+  "talks": [
+    {
+      "type": "Workshop",
+      "title": "Podcast as a tool for advocacy: from theory to practice",
+      "event": "Scholar at Risk (SAR) network (Italy section)",
+      "venue": "University of Padua (UNIPD)",
+      "location": "Padova PD ITALY",
+      "startDate": "2025-03-27",
+      "endDate": "2025-04-17",
+      "ongoing": false
+    },
+    {
+      "type": "Workshop",
+      "title": "Toward a system of visual classification, analysis and recognition of performance-based moving images in the artistic field",
+      "with": [
+        "Michele Castronuovo",
+        "Cosetta Saba"
+      ],
+      "event": "22nd International Conference on Image Analysis and Processing (ICIAP) | 3rd International Workshop on Fine Art Pattern Extraction and Recognition (FAPER)",
+      "venue": "Università degli Studi di Udine - Toppo Wassermann Hall",
+      "location": "Udine UD ITALY",
+      "startDate": "2023-09-11",
+      "endDate": null,
+      "ongoing": false
+    },
+    {
+      "type": "Seminar",
+      "title": "Composizione Musica Elettroacustica",
+      "with": [
+        "Achim Bornhoeft",
+        "Clara Belladone",
+        "Maurilio Cacciatore",
+        "Federico Ortica",
+        "Candida Felici",
+        "Jovier Torres Maldonado"
+      ],
+      "event": "Musica Riva Festival",
+      "venue": "Conservatorio di Riva del Garda",
+      "location": "Riva del Garda TN ITALY",
+      "startDate": "2022-08-28",
+      "endDate": null,
+      "ongoing": false
+    },
+    {
+      "type": "Conference",
+      "title": "Michele Sambin IL TEMPO CONSUMA (1978/2022) presente passato e futuro in loop",
+      "with": [
+        "Riccardo Caldura",
+        "Fernando Marchiori",
+        "Sandra Lischi",
+        "Veniero Rizzardi",
+        "Sergio Canazza",
+        "Michele Sambin"
+      ],
+      "venue": "Sala delle Edicole - Capitaniato square",
+      "location": "Padova PD ITALY",
+      "startDate": "2022-05-16",
+      "endDate": null,
+      "ongoing": false
+    },
+    {
+      "type": "Workshop",
+      "title": "Web Audio e IoT per la musica",
+      "with": [
+        "Niccolò Merendino"
+      ],
+      "event": "SaMPL School",
+      "venue": "Conservatory Padua",
+      "location": "Padova PD ITALY",
+      "startDate": "2022-03-30",
+      "endDate": "2022-04-27",
+      "ongoing": false
+    },
+    {
+      "type": "Webinar",
+      "title": "Monitorare i beni culturali con l'IoT",
+      "with": [
+        "Niccolò Merendino"
+      ],
+      "event": "Webinar: Tecnologie smart per il restauro, la conservazione, la movimentazione di opere e beni culturali",
+      "venue": "University of Padua (UNIPD)",
+      "location": "Padova PD ITALY",
+      "startDate": "2021-09-24",
+      "endDate": null,
+      "ongoing": false
+    },
+    {
+      "type": "Seminar",
+      "title": "Video mapping tra jazz, musica, elettronica e live coding",
+      "with": [
+        "Anna Berna",
+        "Francesco Ardan Dal Ri",
+        "Andrea Marchi",
+        "Federico Ortica",
+        "Marco Russo",
+        "Massimo Priori"
+      ],
+      "event": "Webinar: Tecnologie smart per il restauro, la conservazione, la movimentazione di opere e beni culturali",
+      "venue": "Conservatorio di Riva del Garda",
+      "location": "Riva del Garda TN ITALY",
+      "startDate": "2021-09-09",
+      "endDate": null,
+      "ongoing": false
+    }
+  ],
   "publication": [
     {
       "type": "Conference paper",
@@ -1706,7 +1820,7 @@
         "Mattia Pizzato"
       ],
       "title": "Inside Andrea Molino's La vérité, pas toute: The Creation of Swarm Sounds",
-      "abstract": "The paper is a technical description of a specific component of La Vérité, pas toute, a large scale dense and theatrically engaging work by Italian composer Andrea Molino. Specifically, it outlines the tools and techniques developed to digitally create the “sonic swarms” that are called for in the score. Such swarms are generated, controlled and spatialized in real time and, as such, they present an interesting use case for live electronics environments.",
+      "abstract": "The paper is a technical description of a specific component of La Vérité, pas toute, a large scale dense and theatrically engaging work by Italian composer Andrea Molino.\nSpecifically, it outlines the tools and techniques developed to digitally create the “sonic swarms” that are called for in the score. Such swarms are generated, controlled and spatialized in real time and, as such, they present an interesting use case for live electronics environments.",
       "booktitle": "Proceedings of the 19th Linux Audio Conference",
       "conference": "Linux Audio Conference (LAC)",
       "year": 2025,
@@ -1747,7 +1861,7 @@
         "Florent Berthaut"
       ],
       "title": "Towards a Repository Template for Music Technology Research",
-      "abstract": "Documenting and sharing research output is essential to construct the critical discourse on new music technology. Documentation feeds the knowledge and the values with which to evaluate and discuss current achievements and musical creations as well as to plan for the future. Besides publishing our research in conferences and journals, sharing research materials and outcomes like software, hardware, instruments, and datasets is important. This allows others to use the latest technology and improve it. For this purpose, the repository is increasingly commonly used by researchers and artists to store and share their works. However, creating repositories does not follow a clear and organised structure like the one we find, for example, in papers. The heterogeneity of repositories makes it hard to use both practically and for analysis. Although the variety and differences of research products in the field of new musical technologies are obvious, we believe that defining repositories with common guidelines could significantly improve the critical discourse in this area. This issue has been discussed at the NIME conference through workshops and papers. In this article, we want to continue this discussion and propose a flexible repository template to organise and present research materials and outcomes in the field of musical technologies research.The article provides a short and focused review of how repositories are currently used at the NIME conference, with special attention to the platforms used. Based on this study, we introduce a repository template that will be applied to case studies. We hope this proposal will encourage further discussion and advancement on this issue and, at the same time, support and facilitate the creation of new repositories.",
+      "abstract": "Documenting and sharing research output is essential to construct the critical discourse on new music technology. Documentation feeds the knowledge and the values with which to evaluate and discuss current achievements and musical creations as well as to plan for the future. Besides publishing our research in conferences and journals, sharing research materials and outcomes like software, hardware, instruments, and datasets is important. This allows others to use the latest technology and improve it. For this purpose, the repository is increasingly commonly used by researchers and artists to store and share their works. However, creating repositories does not follow a clear and organised structure like the one we find, for example, in papers. The heterogeneity of repositories makes it hard to use both practically and for analysis. Although the variety and differences of research products in the field of new musical technologies are obvious, we believe that defining repositories with common guidelines could significantly improve the critical discourse in this area. This issue has been discussed at the NIME conference through workshops and papers. In this article, we want to continue this discussion and propose a flexible repository template to organise and present research materials and outcomes in the field of musical technologies research.\nThe article provides a short and focused review of how repositories are currently used at the NIME conference, with special attention to the platforms used. Based on this study, we introduce a repository template that will be applied to case studies. We hope this proposal will encourage further discussion and advancement on this issue and, at the same time, support and facilitate the creation of new repositories.",
       "booktitle": "Proceedings of the International Conference on New Interfaces for Musical Expression",
       "conference": "New Interface for Musical Expression (NIME)",
       "address": "Canberra, Australia",
@@ -1811,7 +1925,7 @@
         "Niccolò Pretto"
       ],
       "title": "Reactivating and Preserving Interactive Multimedia Artworks: An Analog Performance from the Seventies",
-      "abstract": "Interactive multimedia art shows a complex nature as it is time- and process-based, interconnected with technology, derived by the participation of several authors (artists, technicians, performers, to name a few) and an audience, and it is strongly tied to the moment and space of the original exhibition. These characteristics make the preservation of these artworks a multifaceted process. Building on the foundations developed since the 2000s by international projects focused on preserving and restoring these new art forms, the paper proposes an original model for achieving dynamic preservation, called “the multilevel preservation model”. Since it is no longer possible to guarantee physical integrity for interactive multimedia artworks, dynamic preservation involves recording all the changes that occur to display the artworks in the future. In other words, it makes it possible to record the dynamic authenticity of artworks. The model proposes two fundamental properties: multiple layering, which allows to handle different levels of information about the artwork; multiple belongingness, which allows to represent the dynamic authenticity of the artwork at the archival level and achieving dynamic preservation.The paper demonstrates the high-level implementation of the model by presenting a case study: the reactivation and preservation of an analog video art performance from the 1970s. This case study proposes an interesting real scenario for testing the model, as the reactivation process involved the migration of the entire analog technological apparatus of the artwork into the digital domain.",
+      "abstract": "Interactive multimedia art shows a complex nature as it is time- and process-based, interconnected with technology, derived by the participation of several authors (artists, technicians, performers, to name a few) and an audience, and it is strongly tied to the moment and space of the original exhibition. These characteristics make the preservation of these artworks a multifaceted process. Building on the foundations developed since the 2000s by international projects focused on preserving and restoring these new art forms, the paper proposes an original model for achieving dynamic preservation, called “the multilevel preservation model”. Since it is no longer possible to guarantee physical integrity for interactive multimedia artworks, dynamic preservation involves recording all the changes that occur to display the artworks in the future. In other words, it makes it possible to record the dynamic authenticity of artworks. The model proposes two fundamental properties: multiple layering, which allows to handle different levels of information about the artwork; multiple belongingness, which allows to represent the dynamic authenticity of the artwork at the archival level and achieving dynamic preservation.\nThe paper demonstrates the high-level implementation of the model by presenting a case study: the reactivation and preservation of an analog video art performance from the 1970s. This case study proposes an interesting real scenario for testing the model, as the reactivation process involved the migration of the entire analog technological apparatus of the artwork into the digital domain.",
       "journal": "J. Comput. Cult. Herit.",
       "publisher": "Association for Computing Machinery (ACM)",
       "address": "New York, NY, USA",
