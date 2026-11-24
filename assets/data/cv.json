@@ -359,6 +359,20 @@
   ],
   "teaching": [
     {
+      "course": "Tecnologie del suono e della multimedialità (AFAM047)",
+      "institution": "Conservatory \"Arrigo Boito\" Parma ",
+      "department": "Electronic Music",
+      "location": "Parma PR ITALY",
+      "startDate": "2026-11-02",
+      "endDate": null,
+      "academic_year": [
+        "2026/2027"
+      ],
+      "language": "IT",
+      "contract": "Contratto di lavoro a tempo determinato",
+      "documentation": []
+    },
+    {
       "course": "Applicazioni Forensi della psicologia cognitiva",
       "institution": "University of Padua",
       "department": "Department of General Psychology",
@@ -378,7 +392,7 @@
       "department": "Electronic Music",
       "location": "Cesena FC ITALY",
       "startDate": "2026-01-21",
-      "endDate": null,
+      "endDate": "2026-10-31",
       "academic_year": [
         "2025/2026"
       ],
@@ -451,7 +465,7 @@
       "institution": "University of Padua",
       "department": "Department of Information Engineering (DEI)",
       "location": "Padova PD ITALY",
-      "startDate": "2020-06-15",
+      "startDate": "2023-04-04",
       "endDate": null,
       "academic_year": [
         "2023/2024",
